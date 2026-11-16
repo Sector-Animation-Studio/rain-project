@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-11-16T17:28:03.959Z",
+  "source": {
+    "title": "Hip Hop 1",
+    "artistName": "Jason Shaw / Audionautix",
+    "edition": "v6-hiphop",
+    "outputTag": "with-hiphop",
+    "projectId": "rain-surface-v3-hiphop",
+    "localFilename": "Hip-Hop-1.mp3",
+    "preparedFilename": "Rain-Hip-Hop-1.wav",
+    "sourceStartSeconds": 16,
+    "targetLUFS": -16,
+    "aacBitrateKbps": 320,
+    "sourceURL": "https://audionautix.com/free-music/hip-hop",
+    "sourceAudioURL": "https://audionautix.com/Music/HipHop1.mp3",
+    "resolvedAudioURL": "https://audionautix.com/Music/HipHop1.mp3",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/",
+    "assetLicence": "Hip Hop 1 by Jason Shaw / Audionautix, https://audionautix.com/free-music/hip-hop . CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Excerpt trimmed, level adjusted and faded.",
+    "videoCredit": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . Adaptation: 34.5-second excerpt, level adjusted and faded for Rain.",
+    "genre": "Hip-Hop",
+    "tempoCategory": "Medium",
+    "publisherMoods": [
+      "Driving",
+      "Dark",
+      "Energy"
+    ],
+    "sourceDurationSeconds": 147.699525,
+    "retrievedAt": "2026-11-16T17:22:53.380Z",
+    "sha256": "3d62aea9de0227d9e8a78762caa3c9a487f4bea61bb5429d15bcd57430372751"
+  },
+  "project": {
+    "file": "project/project.studio.json",
+    "bytes": 4676522,
+    "sha256": "13b42660dba6ba8eeaa8e43d66ead63c303d35b2096851e3cca7bddfa0d0f683"
+  },
+  "nativeSaveReopenPassed": true,
+  "animationUnchanged": true,
+  "baselineUnchanged": true,
+  "videoReused": true,
+  "mixReport": "audio/MIX-REPORT.json",
+  "audioAsset": {
+    "file": "project/assets/asset-af5eab6b41773a908940197fb5c5fab9.wav",
+    "bytes": 9936488,
+    "sha256": "af5eab6b41773a908940197fb5c5fab9d5e5b7650aaa3b176d9022b8e8a15f37"
+  },
+  "audioTrack": {
+    "id": "d08340e7-7355-4ebf-a79f-edf38a796622",
+    "name": "Hip Hop 1 / Jason Shaw / Audionautix",
+    "assetId": "asset-af5eab6b41773a908940197fb5c5fab9",
+    "sceneId": null,
+    "characterId": null,
+    "kind": "music",
+    "startFrame": 0,
+    "trimStartFrame": 0,
+    "durationFrames": 1035,
+    "gain": 1,
+    "fadeInFrames": 9,
+    "fadeOutFrames": 45,
+    "busId": "c3d57e22-f2b5-497f-880a-52a39bebb8b3"
+  },
+  "musicAdjustment": "Source seconds 16–50.5, level normalized before import. Native track gain 1; 9-frame fade in and 45-frame fade out.",
+  "films": [
+    {
+      "renderer": "Orbit",
+      "file": "renders/Rain-Orbit-with-hiphop.mp4",
+      "bytes": 4203415,
+      "sha256": "ace1503fb909294c8209d7681b750c7848297aa1a8442117506ddaa448740983",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "frames": 1035,
+        "durationSeconds": 34.5,
+        "fps": "30/1"
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "durationSeconds": 34.5,
+        "bitrateBps": 319799
+      },
+      "fullDecode": true,
+      "credit": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . Adaptation: 34.5-second excerpt, level adjusted and faded for Rain.",
+      "loudness": {
+        "integratedLUFS": -16.25,
+        "truePeakDbTP": -2.64,
+        "loudnessRangeLU": 2
+      },
+      "nativeExport": "../v3/renders/rain-restored-Orbit-v3.mp4",
+      "assembly": "Original native video retained; replacement audio mixed by Sector mixProduction.",
+      "videoStreamUnchanged": true,
+      "videoStreamHash": "SHA256=20799785f328c97689b21451bd5d5701a292294df234c30e930fc4347d1c60ed"
+    },
+    {
+      "renderer": "Prism",
+      "file": "renders/Rain-Prism-with-hiphop.mp4",
+      "bytes": 4162770,
+      "sha256": "82b16c6efa3127fd2639dc085639ce8f0ea261c6539c2b20d85bada4ccf2a1da",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "frames": 1035,
+        "durationSeconds": 34.5,
+        "fps": "30/1"
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "durationSeconds": 34.5,
+        "bitrateBps": 319799
+      },
+      "fullDecode": true,
+      "credit": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . Adaptation: 34.5-second excerpt, level adjusted and faded for Rain.",
+      "loudness": {
+        "integratedLUFS": -16.25,
+        "truePeakDbTP": -2.64,
+        "loudnessRangeLU": 2
+      },
+      "nativeExport": "../v3/renders/rain-restored-Prism-v3.mp4",
+      "assembly": "Original native video retained; replacement audio mixed by Sector mixProduction.",
+      "videoStreamUnchanged": true,
+      "videoStreamHash": "SHA256=6283f6e6caf6a55776fa71ba9807d6aaa87c5fa0eaef9dafa16732c5ea933e58"
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "renders/Rain-comparison-Orbit-with-hiphop.mp4",
+      "bytes": 3673646,
+      "sha256": "048c9f9ed6ae9e416235abd39418a8883214b413941d40fe8e75b5ea950c2b4b",
+      "video": {
+        "width": 1920,
+        "height": 540,
+        "frames": 1035,
+        "durationSeconds": 34.5,
+        "fps": "30/1"
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "durationSeconds": 34.5,
+        "bitrateBps": 319799
+      },
+      "fullDecode": true,
+      "credit": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . Adaptation: 34.5-second excerpt, level adjusted and faded for Rain.",
+      "method": "Complete v6/v3 image comparison with the v6-hiphop music track once, shared by both sides. Video frames retained by stream copy."
+    },
+    {
+      "file": "renders/Rain-comparison-Prism-with-hiphop.mp4",
+      "bytes": 3626630,
+      "sha256": "713538f2430e3df5da730fd4a818ca1cfb23002e7ee963cc821ab4e936c87a7e",
+      "video": {
+        "width": 1920,
+        "height": 540,
+        "frames": 1035,
+        "durationSeconds": 34.5,
+        "fps": "30/1"
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "durationSeconds": 34.5,
+        "bitrateBps": 319799
+      },
+      "fullDecode": true,
+      "credit": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . Adaptation: 34.5-second excerpt, level adjusted and faded for Rain.",
+      "method": "Complete v6/v3 image comparison with the v6-hiphop music track once, shared by both sides. Video frames retained by stream copy."
+    }
+  ]
+}

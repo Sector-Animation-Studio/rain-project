@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1523">
+  <title>Rain in motion · Sector Animation Studio</title>
+  <meta name="description" content="Watch Rain breakdance with hip-hop in Sector Orbit and Prism, and download the editable Sector project.">
+  <link rel="canonical" href="https://sector-animation-studio.github.io/rain-project/">
+  <meta property="og:title" content="Rain in motion · Sector Animation Studio">
+  <meta property="og:description" content="A complete breakdance performance, two renderers and an editable Sector project.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sector-animation-studio.github.io/rain-project/">
+  <meta property="og:image" content="https://sector-animation-studio.github.io/rain-project/media/rain-orbit-hiphop-v1.webp">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./player.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to performance</a>
+  <header class="page-header wrap">
+    <a class="wordmark" href="https://github.com/Sector-Animation-Studio" aria-label="Sector Animation Studio on GitHub">SECTOR<span>ANIMATION STUDIO</span></a>
+    <a class="repo-link" href="https://github.com/Sector-Animation-Studio/rain-project">View project on GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main-content" class="wrap" tabindex="-1">
+    <section class="intro" aria-labelledby="rain-heading">
+      <div><p class="eyebrow">MADE IN SECTOR</p><h1 id="rain-heading">Rain in motion.</h1></div>
+      <p class="intro-text">A full breakdance performance with hip-hop music. Watch it in two renderers, then open the project and make it your own.</p>
+    </section>
+    <div class="renderer-picker" role="group" aria-label="Choose the film renderer">
+      <button type="button" data-renderer="orbit" aria-pressed="true">Sector Orbit</button>
+      <button type="button" data-renderer="prism" aria-pressed="false">Sector Prism</button>
+    </div>
+    <figure class="performance">
+      <video id="rain-video" controls playsinline preload="none" poster="./media/rain-orbit-hiphop-v1.webp" width="1920" height="1080" aria-label="Rain breakdance with hip-hop music — Sector Orbit">
+        <source id="rain-source" src="./media/rain-orbit-hiphop-v1.mp4" type="video/mp4">
+        <track kind="captions" src="./media/captions-hiphop-v1.vtt" srclang="en" label="English music description">
+        Your browser does not support video. <a href="./media/rain-orbit-hiphop-v1.mp4">Download the Orbit film.</a>
+      </video>
+      <figcaption>
+        <div class="film-facts"><span class="badge">RENDERED IN SECTOR</span><p>34.5 seconds <span aria-hidden="true">·</span> 1080p <span aria-hidden="true">·</span> 30 fps <span aria-hidden="true">·</span> <span id="active-renderer">Sector Orbit</span></p></div>
+        <p>Music: <a href="https://audionautix.com/free-music/hip-hop">“Hip Hop 1” by Jason Shaw / Audionautix</a>. Trimmed, level adjusted and faded. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+        <p><a href="https://studio.blender.org/characters/rain/v3/">Rain Rig (CC) Blender Foundation | studio.blender.org</a>. Sector character conversion and motion preparation are adaptations. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Motion: CMU 85_12.</p>
+        <a href="./CREDITS.txt">Full film and asset credits <span aria-hidden="true">↗</span></a>
+      </figcaption>
+    </figure>
+    <section class="project-download" aria-labelledby="project-heading">
+      <div><p class="eyebrow">KEEP CREATING</p><h2 id="project-heading">Take the project with you.</h2><p>The complete editable Sector project, with Rain’s character and local music. Unzip it, open <code>project.studio.json</code> in Sector, and keep the <code>assets</code> folder beside it.</p></div>
+      <a class="download-button" href="./downloads/Rain-Sector-project-hiphop-v1.zip" download>Download Rain project <span>ZIP · __PROJECT_SIZE__</span></a>
+    </section>
+  </main>
+  <footer class="wrap"><p>Sector Animation Studio</p><a href="https://sector-studio-website.johnjahbless.workers.dev/">Visit the studio website <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>

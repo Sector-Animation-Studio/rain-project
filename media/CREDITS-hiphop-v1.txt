@@ -1,0 +1,17 @@
+Rain Rig (CC) Blender Foundation | studio.blender.org
+Character source: https://studio.blender.org/characters/rain/v3/
+Character licence: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adaptations: Sector GLB conversion and sequence-specific motion preparation.
+
+Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . Adaptation: 34.5-second excerpt, level adjusted and faded for Rain.
+Music excerpt: source seconds 16.000–50.500; 0.3-second fade in and 1.5-second fade out.
+
+Motion: Carnegie Mellon University Motion Capture Database, subject 85, capture 12.
+https://mocap.cs.cmu.edu/
+https://mocap.cs.cmu.edu/faqs.php
+Source frames 90–1124 at 30 fps. Motion retargeted and prepared for Rain.
+The CMU data may be copied, modified or redistributed without permission and may be included in commercial products. Direct resale of the original or converted motion data is prohibited.
+
+Video: 34.5 seconds, 1,035 frames, 1920 × 1080, 30 fps.
+Native Sector Orbit/Prism video retained; music mixed from the saved native project through Sector mixProduction.

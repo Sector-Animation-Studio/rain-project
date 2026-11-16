@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "project": "project.studio.json",
+  "projectId": "rain-surface-v3-hiphop",
+  "assets": [
+    {
+      "id": "asset-f3f4778077073634288837f5a72a0004",
+      "name": "rain-sector-v2.glb",
+      "kind": "character",
+      "file": "assets/asset-f3f4778077073634288837f5a72a0004.glb",
+      "hash": "f3f4778077073634288837f5a72a0004179bce670bf663fc035cf35d4dee01c2",
+      "licence": "Rain Rig (CC), Blender Foundation / studio.blender.org, CC BY 4.0. Sector GLB conversion is an adaptation."
+    },
+    {
+      "id": "asset-af5eab6b41773a908940197fb5c5fab9",
+      "name": "Hip Hop 1 / Jason Shaw / Audionautix / Rain excerpt",
+      "kind": "audio",
+      "file": "assets/asset-af5eab6b41773a908940197fb5c5fab9.wav",
+      "hash": "af5eab6b41773a908940197fb5c5fab9d5e5b7650aaa3b176d9022b8e8a15f37",
+      "licence": "Hip Hop 1 by Jason Shaw / Audionautix, https://audionautix.com/free-music/hip-hop . CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Excerpt trimmed, level adjusted and faded."
+    }
+  ]
+}

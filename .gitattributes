@@ -1,0 +1,9 @@
+* text=auto eol=lf
+project/** -text
+media/** -text
+provenance/** -text -whitespace
+licences/** -text -whitespace
+*.glb binary
+*.wav binary
+*.mp4 binary
+*.webp binary

@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-11-16T18:15:45.379Z",
+  "sourceProjectHash": "13b42660dba6ba8eeaa8e43d66ead63c303d35b2096851e3cca7bddfa0d0f683",
+  "checks": [
+    "Native project and asset hashes verified.",
+    "Native film hashes verified.",
+    "Portable ZIP verified against original dependencies and independently listed with Windows tar.",
+    "Both renderers played with decoded audio and sought to 30 seconds at desktop and mobile widths.",
+    "Zero accessibility violations and page errors.",
+    "Desktop and mobile screenshots visually inspected.",
+    "npm audit reports zero advisories."
+  ],
+  "videoViewportCases": 4,
+  "audioListeningReview": false,
+  "passed": true
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Hip Hop 1",
+  "artistName": "Jason Shaw / Audionautix",
+  "edition": "v6-hiphop",
+  "outputTag": "with-hiphop",
+  "projectId": "rain-surface-v3-hiphop",
+  "localFilename": "Hip-Hop-1.mp3",
+  "preparedFilename": "Rain-Hip-Hop-1.wav",
+  "sourceStartSeconds": 16,
+  "targetLUFS": -16,
+  "aacBitrateKbps": 320,
+  "sourceURL": "https://audionautix.com/free-music/hip-hop",
+  "sourceAudioURL": "https://audionautix.com/Music/HipHop1.mp3",
+  "resolvedAudioURL": "https://audionautix.com/Music/HipHop1.mp3",
+  "license": "CC BY 4.0",
+  "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/",
+  "assetLicence": "Hip Hop 1 by Jason Shaw / Audionautix, https://audionautix.com/free-music/hip-hop . CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Excerpt trimmed, level adjusted and faded.",
+  "videoCredit": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . Adaptation: 34.5-second excerpt, level adjusted and faded for Rain.",
+  "genre": "Hip-Hop",
+  "tempoCategory": "Medium",
+  "publisherMoods": [
+    "Driving",
+    "Dark",
+    "Energy"
+  ],
+  "sourceDurationSeconds": 147.699525,
+  "retrievedAt": "2026-11-16T17:22:53.380Z",
+  "sha256": "3d62aea9de0227d9e8a78762caa3c9a487f4bea61bb5429d15bcd57430372751"
+}

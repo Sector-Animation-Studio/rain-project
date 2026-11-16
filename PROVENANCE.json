@@ -1,0 +1,185 @@
+{
+  "revision": "rain-hiphop-v1",
+  "organisation": "Sector-Animation-Studio",
+  "repository": "rain-project",
+  "ownerInstruction": "Create a new repo and deploy the Rain project to https://github.com/Sector-Animation-Studio",
+  "nativeProjectId": "rain-surface-v3-hiphop",
+  "nativeProjectSHA256": "13b42660dba6ba8eeaa8e43d66ead63c303d35b2096851e3cca7bddfa0d0f683",
+  "nativeSaveReopenPassed": true,
+  "animationUnchanged": true,
+  "baselineUnchanged": true,
+  "assetAvailability": [
+    {
+      "id": "asset-f3f4778077073634288837f5a72a0004",
+      "available": true,
+      "issue": ""
+    },
+    {
+      "id": "asset-af5eab6b41773a908940197fb5c5fab9",
+      "available": true,
+      "issue": ""
+    }
+  ],
+  "music": {
+    "title": "Hip Hop 1",
+    "artistName": "Jason Shaw / Audionautix",
+    "edition": "v6-hiphop",
+    "outputTag": "with-hiphop",
+    "projectId": "rain-surface-v3-hiphop",
+    "localFilename": "Hip-Hop-1.mp3",
+    "preparedFilename": "Rain-Hip-Hop-1.wav",
+    "sourceStartSeconds": 16,
+    "targetLUFS": -16,
+    "aacBitrateKbps": 320,
+    "sourceURL": "https://audionautix.com/free-music/hip-hop",
+    "sourceAudioURL": "https://audionautix.com/Music/HipHop1.mp3",
+    "resolvedAudioURL": "https://audionautix.com/Music/HipHop1.mp3",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/",
+    "assetLicence": "Hip Hop 1 by Jason Shaw / Audionautix, https://audionautix.com/free-music/hip-hop . CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Excerpt trimmed, level adjusted and faded.",
+    "videoCredit": "Hip Hop 1 by Jason Shaw / Audionautix. Source: https://audionautix.com/free-music/hip-hop . Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . Adaptation: 34.5-second excerpt, level adjusted and faded for Rain.",
+    "genre": "Hip-Hop",
+    "tempoCategory": "Medium",
+    "publisherMoods": [
+      "Driving",
+      "Dark",
+      "Energy"
+    ],
+    "sourceDurationSeconds": 147.699525,
+    "retrievedAt": "2026-11-16T17:22:53.380Z",
+    "sha256": "3d62aea9de0227d9e8a78762caa3c9a487f4bea61bb5429d15bcd57430372751"
+  },
+  "films": [
+    {
+      "renderer": "Orbit",
+      "file": "media/rain-orbit-hiphop-v1.mp4",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "frames": 1035,
+        "durationSeconds": 34.5,
+        "fps": "30/1"
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "durationSeconds": 34.5,
+        "bitrateBps": 319799
+      },
+      "loudness": {
+        "integratedLUFS": -16.25,
+        "truePeakDbTP": -2.64,
+        "loudnessRangeLU": 2
+      },
+      "sha256": "ace1503fb909294c8209d7681b750c7848297aa1a8442117506ddaa448740983",
+      "bytes": 4203415,
+      "videoStreamUnchanged": true,
+      "videoStreamHash": "SHA256=20799785f328c97689b21451bd5d5701a292294df234c30e930fc4347d1c60ed",
+      "fullDecode": true
+    },
+    {
+      "renderer": "Prism",
+      "file": "media/rain-prism-hiphop-v1.mp4",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "frames": 1035,
+        "durationSeconds": 34.5,
+        "fps": "30/1"
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "durationSeconds": 34.5,
+        "bitrateBps": 319799
+      },
+      "loudness": {
+        "integratedLUFS": -16.25,
+        "truePeakDbTP": -2.64,
+        "loudnessRangeLU": 2
+      },
+      "sha256": "82b16c6efa3127fd2639dc085639ce8f0ea261c6539c2b20d85bada4ccf2a1da",
+      "bytes": 4162770,
+      "videoStreamUnchanged": true,
+      "videoStreamHash": "SHA256=6283f6e6caf6a55776fa71ba9807d6aaa87c5fa0eaef9dafa16732c5ea933e58",
+      "fullDecode": true
+    }
+  ],
+  "character": {
+    "credit": "Rain Rig (CC) Blender Foundation | studio.blender.org",
+    "licence": "CC BY 4.0",
+    "source": "https://studio.blender.org/characters/rain/v3/",
+    "modifications": "Sector GLB conversion and sequence-specific motion preparation."
+  },
+  "motion": {
+    "source": "CMU 85_12",
+    "url": "https://mocap.cs.cmu.edu/",
+    "permissionURL": "https://mocap.cs.cmu.edu/faqs.php",
+    "sourceFrames": [
+      90,
+      1124
+    ],
+    "fps": 30,
+    "permission": "Copy, modify and redistribute permitted. Direct resale of the original or converted motion data prohibited."
+  },
+  "files": [
+    {
+      "path": "project/project.studio.json",
+      "bytes": 4676522,
+      "sha256": "13b42660dba6ba8eeaa8e43d66ead63c303d35b2096851e3cca7bddfa0d0f683"
+    },
+    {
+      "path": "project/asset-manifest.json",
+      "bytes": 1030,
+      "sha256": "90dc950e1f1f9ab4fb1bb8bfd34ca14338baa22f3e99a91d73ef57c40576fdaf"
+    },
+    {
+      "path": "project/assets/asset-f3f4778077073634288837f5a72a0004.glb",
+      "bytes": 59526144,
+      "sha256": "f3f4778077073634288837f5a72a0004179bce670bf663fc035cf35d4dee01c2"
+    },
+    {
+      "path": "project/assets/asset-af5eab6b41773a908940197fb5c5fab9.wav",
+      "bytes": 9936488,
+      "sha256": "af5eab6b41773a908940197fb5c5fab9d5e5b7650aaa3b176d9022b8e8a15f37"
+    },
+    {
+      "path": "media/captions-hiphop-v1.vtt",
+      "bytes": 101,
+      "sha256": "f282752ced224c49f8896d8ea30dd84b23cb3b850c8149a917fb725d87de3bdc"
+    },
+    {
+      "path": "media/CREDITS-hiphop-v1.txt",
+      "bytes": 1234,
+      "sha256": "aedc2bb21c1e5133d55915fc88a0ed1f3928f0ae01246988b9a5d4176dbda472"
+    },
+    {
+      "path": "media/rain-orbit-hiphop-v1.mp4",
+      "bytes": 4203415,
+      "sha256": "ace1503fb909294c8209d7681b750c7848297aa1a8442117506ddaa448740983"
+    },
+    {
+      "path": "media/rain-orbit-hiphop-v1.webp",
+      "bytes": 5970,
+      "sha256": "5f54190d7eb3dd8b9e1300d1b0e0617981c919a5e925a5f81dac037b6bcbe939"
+    },
+    {
+      "path": "media/rain-prism-hiphop-v1.mp4",
+      "bytes": 4162770,
+      "sha256": "82b16c6efa3127fd2639dc085639ce8f0ea261c6539c2b20d85bada4ccf2a1da"
+    },
+    {
+      "path": "media/rain-prism-hiphop-v1.webp",
+      "bytes": 5922,
+      "sha256": "713a7045d05cb04cb4c161411e4d3440fb5672304e599dafe8f9c6ddb2f10241"
+    },
+    {
+      "path": "CREDITS.txt",
+      "bytes": 1234,
+      "sha256": "aedc2bb21c1e5133d55915fc88a0ed1f3928f0ae01246988b9a5d4176dbda472"
+    }
+  ]
+}

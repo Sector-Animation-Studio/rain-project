@@ -1,0 +1,65 @@
+{
+  "origin": "http://127.0.0.1:4188/rain-project/",
+  "videos": [
+    {
+      "engine": "Sector Orbit",
+      "viewportWidth": 1440,
+      "duration": 34.5,
+      "time": 30,
+      "width": 1920,
+      "height": 1080,
+      "decodedAudioBytes": 21036,
+      "muted": false,
+      "activeCues": 1,
+      "source": "http://127.0.0.1:4188/rain-project/media/rain-orbit-hiphop-v1.mp4"
+    },
+    {
+      "engine": "Sector Prism",
+      "viewportWidth": 1440,
+      "duration": 34.5,
+      "time": 30,
+      "width": 1920,
+      "height": 1080,
+      "decodedAudioBytes": 28442,
+      "muted": false,
+      "activeCues": 1,
+      "source": "http://127.0.0.1:4188/rain-project/media/rain-prism-hiphop-v1.mp4"
+    },
+    {
+      "engine": "Sector Orbit",
+      "viewportWidth": 390,
+      "duration": 34.5,
+      "time": 30,
+      "width": 1920,
+      "height": 1080,
+      "decodedAudioBytes": 30648,
+      "muted": false,
+      "activeCues": 1,
+      "source": "http://127.0.0.1:4188/rain-project/media/rain-orbit-hiphop-v1.mp4"
+    },
+    {
+      "engine": "Sector Prism",
+      "viewportWidth": 390,
+      "duration": 34.5,
+      "time": 30,
+      "width": 1920,
+      "height": 1080,
+      "decodedAudioBytes": 27680,
+      "muted": false,
+      "activeCues": 1,
+      "source": "http://127.0.0.1:4188/rain-project/media/rain-prism-hiphop-v1.mp4"
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "width": 390,
+      "violations": 0
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -22,7 +22,11 @@ try{
       const result=await video.evaluate(async v=>{
         await v.play();await new Promise(r=>setTimeout(r,500));v.pause();const decodedAudioBytes=v.webkitAudioDecodedByteCount;
         await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Seek timeout')),15000);v.addEventListener('seeked',()=>{clearTimeout(timer);resolve();},{once:true});v.currentTime=30;});
-        v.textTracks[0].mode='showing';await new Promise(r=>setTimeout(r,350));
+        const track=v.textTracks[0];track.mode='showing';
+        await new Promise((resolve,reject)=>{
+          const deadline=Date.now()+15000;
+          const check=()=>{if(track.activeCues?.length){resolve();return;}if(v.querySelector('track').readyState===3){reject(Error('Caption file failed to load'));return;}if(Date.now()>deadline){reject(Error('Caption load timeout'));return;}setTimeout(check,100);};check();
+        });
         return {duration:v.duration,time:v.currentTime,width:v.videoWidth,height:v.videoHeight,decodedAudioBytes,muted:v.muted,activeCues:v.textTracks[0].activeCues?.length,source:v.currentSrc,error:v.error?.code};
       });
       assert(!result.error);assert.equal(result.duration,34.5);assert.equal(result.width,1920);assert.equal(result.height,1080);assert(result.time>=29.9);assert(result.decodedAudioBytes>0);assert.equal(result.muted,false);assert(result.activeCues>0);assert(result.source.startsWith(origin+'media/'));
